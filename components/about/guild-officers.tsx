@@ -26,9 +26,9 @@ export const officers: Officer[] = [
     person: "Anthony Sassano",
   },
   {
-    house: "GrowthePie",
+    house: "growthepie",
     social: "https://x.com/tobschcom",
-    website: "https://www.growthepie.xyz/",
+    website: "https://www.growthepie.com/",
     logo: "/image/growthepie-logo.png",
     person: "Tobias Schreier",
   },
