@@ -59,32 +59,12 @@ export default function HomePage() {
           </h2>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href="https://www.ethismoney.xyz/"
-              className="px-8 py-3 bg-[#A23B23] text-white rounded-lg text-lg font-semibold hover:bg-[#8B3220] transition-colors w-[200px]"
-            >
-              Donate
-            </Link>
-            <Link
               href="https://paragraph.xyz/@etherguild"
-              className="px-8 py-3 border-2 border-white text-white rounded-lg text-lg font-semibold hover:bg-white hover:text-[#1F2937] transition-colors w-[200px]"
+              className="px-8 py-3 bg-[#A23B23] text-white rounded-lg text-lg font-semibold hover:bg-[#8B3220] transition-colors w-[200px]"
             >
               Read More
             </Link>
           </div>
-
-          <p className="text-white mt-16 mb-8">
-            Looking to volunteer?{" "}
-            <Link
-              href="https://app.manifold.xyz/c/ether-guild-volunteer"
-              className="underline hover:text-gray-300"
-            >
-              Mint the NFT
-            </Link>{" "}
-            and{" "}
-            <Link href="/discord" className="underline hover:text-gray-300">
-              join us
-            </Link>
-          </p>
         </div>
 
         {/* Social Media Links */}
@@ -143,6 +123,8 @@ export default function HomePage() {
           >
             <FaEnvelope size={28} />
           </Link>
+
+
         </div>
       </div>
     </main>
